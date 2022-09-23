@@ -309,7 +309,7 @@ section {
 .about-container {
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
-	padding-top: 3.2rem;
+	padding-top: 1rem;
 	padding-bottom: 5rem;
 
 	.right-about {
@@ -361,9 +361,10 @@ section {
 		}
 	}
 	.left-about {
-		padding-right: 6rem;
+		padding-right: 1rem;
 		p {
 			line-height: 2rem;
+
 			padding: 0.5rem;
 			color: var(--color-white);
 		}
@@ -372,6 +373,7 @@ section {
 			text-transform: uppercase;
 			letter-spacing: 2px;
 			color: var(--color-white);
+			padding: 1rem;
 		}
 	}
 }
@@ -515,7 +517,6 @@ section {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
 	grid-gap: 2rem;
-	margin-top: 5rem;
 
 	.portfolio-item {
 		position: relative;

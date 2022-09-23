@@ -11,10 +11,10 @@
     padding-top: 2.5rem;
   }
   .about-container .left-about {
-    padding-right: 0;
+    padding: 0;
   }
   .about-container .left-about p {
-    padding-left: 0;
+    padding: 40rem;
   }
   .main-title h2 {
     font-size: 2rem !important;
@@ -451,7 +451,7 @@ section {
 .about-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  padding-top: 3.2rem;
+  padding-top: 1rem;
   padding-bottom: 5rem;
 }
 .about-container .right-about {
@@ -499,7 +499,7 @@ section {
   background-color: var(--color-grey-5);
 }
 .about-container .left-about {
-  padding-right: 6rem;
+  padding-right: 1rem;
 }
 .about-container .left-about p {
   line-height: 2rem;
@@ -511,6 +511,7 @@ section {
   text-transform: uppercase;
   letter-spacing: 2px;
   color: var(--color-white);
+  padding: 1rem;
 }
 
 .about-stats {
@@ -647,7 +648,6 @@ section {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 2rem;
-  margin-top: 5rem;
 }
 .portfolios .portfolio-item {
   position: relative;
