@@ -11,13 +11,13 @@
 			padding-top: 2.5rem;
 		}
 		.left-about {
-			padding-right: 0;
-
-			p {
-				padding-left: 0;
-			}
+			padding-right: 0rem;
 		}
+		/* Header Container*/
+
+		/* Header End*/
 	}
+
 	.main-title {
 		h2 {
 			font-size: 2rem !important;
@@ -123,6 +123,11 @@
 	.header-content .left-header .image {
 		margin: 0 auto;
 		min-height: 100vh;
+	}
+	.about-container {
+		.left-about {
+			padding-right: 3rem;
+		}
 	}
 	.section {
 		padding: 7rem 6rem;

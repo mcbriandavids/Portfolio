@@ -5,16 +5,15 @@
   }
   .about-container {
     grid-template-columns: 1fr !important;
+    /* Header Container*/
+    /* Header End*/
   }
   .about-container .right-about {
     grid-template-columns: 1fr !important;
     padding-top: 2.5rem;
   }
   .about-container .left-about {
-    padding-right: 0;
-  }
-  .about-container .left-about p {
-    padding-left: 0;
+    padding-right: 0rem;
   }
   .main-title h2 {
     font-size: 2rem !important;
@@ -108,6 +107,9 @@
     margin: 0 auto;
     min-height: 100vh;
   }
+  .about-container .left-about {
+    padding-right: 3rem;
+  }
   .section {
     padding: 7rem 6rem;
   }
@@ -146,7 +148,7 @@
   --box-shadow-1: 0 3px 15px rgba(0, 0, 0 0.3);
   --br-sm-2: 34px;
   --primary-color: #191d2b;
-  --secondary-color: #27ae60;
+  --secondary-color: skyblue;
   --color-white: #ffff;
   --color-black: #0000;
   --color-grey-0: #f8f8f8;
@@ -374,6 +376,10 @@ section {
 .header-content .right-header .title span {
   color: var(--secondary-color);
 }
+.header-content .right-header .title .skill-sets {
+  font-size: 2.5rem;
+  color: var(--color-white);
+}
 .header-content .right-header .title p {
   margin: 1rem 0;
   line-height: 1rem;
@@ -382,6 +388,7 @@ section {
 .btn-con {
   display: flex;
   align-self: flex-start;
+  margin-top: 0.5rem;
 }
 .btn-con .main-btn {
   border-radius: 30px;
@@ -499,7 +506,7 @@ section {
   background-color: var(--color-grey-5);
 }
 .about-container .left-about {
-  padding-right: 6rem;
+  padding-right: 1rem;
 }
 .about-container .left-about p {
   line-height: 2rem;
@@ -748,6 +755,7 @@ section {
 .contact-content-con .left-contact .contact-info .contact-item .icon i {
   display: flex;
   align-items: center;
+  justify-content: center;
   font-size: 1.3rem;
 }
 .contact-content-con .left-contact .contact-icon {
@@ -809,4 +817,14 @@ section {
 .contact-content-con .right-contact .submit-btn {
   display: flex;
   justify-content: flex-start;
+}
+.contact-content-con .right-contact .submit-btn .btn-con button {
+  background: transparent;
+  color: var(--color-white);
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+.contact-content-con .right-contact .submit-btn .btn-con button .btn-con i {
+  color: var(--color-grey-6);
 }/*# sourceMappingURL=styles.css.map */
