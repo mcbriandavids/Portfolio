@@ -43,23 +43,3 @@ pageTransitions();
 
 /*Form Submission */
 
-const button = document.querySelector("#submit");
-
-button.addEventListener("click", (e) => {
-	e.preventDefault();
-	let name = document.querySelector(".name").value;
-	let email = document.querySelector(".email").value;
-	let subject = document.querySelector(".subject").value;
-	let message = document.querySelector(".message").value;
-
-	let body = `name: ${name} <br/> email: ${email} <br/> subject: ${subject} <br/> message: ${message} `;
-	Email.send({
-		Host: "smtp.gmail.com",
-		Username: "mcbriandavids43@gmail.com",
-		Password: "bjwfknwwvvlqylws",
-		To: "mcbriandavids43@gmail.com",
-		From: "email",
-		Subject: "subject",
-		Body: body,
-	}).then((message) => alert(message));
-});
